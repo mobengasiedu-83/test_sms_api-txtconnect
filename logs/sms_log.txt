@@ -1,0 +1,14 @@
+[2026-01-29 09:38:01] Status Code: 400
+Response:     {"msg":"from Does not exist"}
+[2026-01-29 09:40:22] Status Code: 200
+Response:     {"messageId":"2026012909402250458651769679622","msg":"Sms Send  Sucessfull"}
+[2026-01-29 09:45:48] Status Code: 200
+Response:     {"messageId":"2026012909454868398651769679948","msg":"Sms send Sucessfull"}
+[2026-01-29 09:56:30] Status Code: 200
+Response:     {"messageId":"2026012909563037178651769680590","msg":"Sms send Sucessfull"}
+[2026-01-29 09:56:56] Status Code: 200
+Response:     {"messageId":"2026012909565754488651769680617","msg":"Sms send Sucessfull"}
+[2026-01-29 10:23:02] Status Code: 400
+Response:     {"msg":"from Does not exist"}
+[2026-01-29 10:23:49] Status Code: 200
+Response:     {"messageId":"20260129102350139419641769682230","msg":"Sms Send  Sucessfull"}

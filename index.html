@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send SMS</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+<div class="container">
+    <h1>Send SMS</h1>
+    <form action="send_sms.php" method="post">
+        <label for="apiKey">API Key:</label>
+        <input type="text" id="apiKey" name="apiKey" placeholder="Enter your API Key" required>
+
+        <label for="to">Recipient Number:</label>
+        <input type="text" id="to" name="to" placeholder="Enter recipient's number" required>
+
+        <label for="from">Sender Name:</label>
+        <input type="text" id="from" name="from" placeholder="Enter an approved sender's name" required>
+
+        <label for="unicode">Unicode (0 or 1):</label>
+        <select id="unicode" name="unicode" required>
+            <option value="0">0 - Non-Unicode</option>
+            <option value="1">1 - Unicode</option>
+        </select>
+
+        <label for="sms">SMS Content:</label>
+        <textarea id="sms" name="sms" rows="4" placeholder="Enter SMS content here" required></textarea>
+
+        <button type="submit">Send SMS</button>
+    </form>
+</div>
+</body>
+</html>
