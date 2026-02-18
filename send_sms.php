@@ -8,7 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sms = $_POST['sms'];
 
     // API URL
-    $apiUrl = "https://txtconnect.net/dev/api/sms/send";
+    //$apiUrl = "https://txtconnect.net/dev/api/sms/send";
+    $apiUrl = "https://api.txtconnect.net/dev/api/sms/send";
 
     // Initialize cURL session
     $ch = curl_init($apiUrl);
@@ -66,8 +67,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Close cURL session
     curl_close($ch);
-
 } else {
     echo "Invalid request method!";
 }
-?>
